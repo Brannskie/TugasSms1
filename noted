@@ -1,0 +1,14 @@
+$id= $_GET['id'];
+$trans = "SELECT * FROM detail inner join transaksi on detail.id_transaksi = transaksi.id_transaksi detail.id_transaksi
+                                        where detail.id_transaksi ='$id'"
+            $query = mysqli_query($koneksi,$trans);
+            $data = mysqli_fetch_array($query);
+
+
+
+            //<?php
+        
+        $prod= " SELECT * FROM detail
+        inner join "
+        
+        ?>
